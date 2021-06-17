@@ -1,0 +1,40 @@
+body,html, #root, .app, .container{
+  width:100%;
+  height:100%;
+}
+
+.container{
+  font-size: 28px;
+  color:azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(186,122,122,0.8970938717283788) 100%);
+}
+
+.loginForm{
+  box-sizing: border-box;
+  width: 100%;
+  border-color: cornsilk;
+  max-width:400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.inputField{
+  padding-top: 16px;
+  width: 250px;
+}
+
+.submitButton{
+  padding-top:20px ;
+  margin: 10px 10px 10px 2px;
+  width: 255px;
+  text-align: center;
+  opacity: 0.5;
+  border-color: rgb(255, 255, 255);
+  border-width: 2px;
+}
